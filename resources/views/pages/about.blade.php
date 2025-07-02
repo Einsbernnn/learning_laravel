@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends(layouts.app)
 
-        <title>{{config('app.name', 'PKProject')}}</title>
-
-
-    </head>
-    <body>
-        <h1> About </h1>
+@section ('content')
+        <h1> Welcome to About Page</h1>
         <p>This is the about page.</p>
-    </body>
-</html>
+@endsection
